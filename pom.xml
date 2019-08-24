@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.technowave.training</groupId>
   <artifactId>agregate-project</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <packaging>pom</packaging>
   
   <modules>
@@ -23,7 +23,7 @@
   </distributionManagement>
   <scm>
   	<connection>scm:git:https://github.com/nizarm78/agregate.git</connection>
-    <tag>HEAD</tag>
+    <tag>agregate-project-0.0.1</tag>
   </scm>
 
   <build>
