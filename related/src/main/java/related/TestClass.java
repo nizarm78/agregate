@@ -9,6 +9,11 @@ public class TestClass {
 	private static final String PRINT_PATH = "D:\\temp\\printout.txt";
 
 	public void print(String message) throws IOException{
-		FileUtils.writeStringToFile(new File(PRINT_PATH), message);
+		FileUtils.writeStringToFile(new File(PRINT_PATH), message+"\n", "UTF-8", true);
+	}
+	
+	public boolean fileExists(){
+		File f = new File(PRINT_PATH);
+		return f.exists();
 	}
 }
