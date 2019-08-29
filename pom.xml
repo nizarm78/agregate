@@ -7,7 +7,7 @@
   <artifactId>agregate-project</artifactId>
   <version>0.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
-  
+  <!--      -->
   <modules>
   	<module>related</module>
   	<module>myweb</module>
