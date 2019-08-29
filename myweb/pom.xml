@@ -3,7 +3,7 @@
 	<parent>
 		<groupId>com.technowave.training</groupId>
 		<artifactId>agregate-project</artifactId>
-		<version>0.0.4</version>
+		<version>0.0.5-SNAPSHOT</version>
 	</parent>
 	<artifactId>myweb</artifactId>
 	<packaging>war</packaging>
